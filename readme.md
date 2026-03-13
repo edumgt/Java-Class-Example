@@ -61,3 +61,21 @@ MongoDB 빠른 실행 예시(프로젝트 내 메모):
 ```bash
 docker run -d --name my-mongo -p 27017:27017 mongo
 ```
+
+
+## 학습 난이도/커리큘럼 (재정의)
+
+본 저장소는 다음 순서로 학습하도록 재정의했습니다.
+
+1. `external/Java-Basic-005` (Lv.0~Lv.2): 문법/객체지향 기초
+2. `com.sample.ISAMExample`, `ISAMExample2` (Lv.3): 파일 인덱싱/레코드 구조
+3. `com.sample.ShipSimulationISAM`, `ShipSimulationUnload` (Lv.4): 시뮬레이션/도메인 로직
+4. `com.ship.UpdateShipLocation`, `CreateHwpExample` (Lv.5): 외부 시스템 연동
+
+상세 학습 로드맵은 `curriculum.md`를 참고하세요.
+
+Java-Basic-005 내용 동기화:
+
+```bash
+bash scripts/import_java_basic_005.sh
+```
